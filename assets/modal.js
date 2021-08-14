@@ -23,10 +23,11 @@ $(document).ready(function() {
       link: 'https://mantra.design/'
     },
     react: {
-      title: 'Cross Connect',
-      tag: 'Dating Websites.',
+      title: 'Globalise',
+      tag: 'International share market project',
       detail:
-        "Make every single moment count. This is more than a dating app. It's a cultural movement.."
+        "Experience global investing made easy with Globalise. Globalise your wealth by investing in international stock markets. Trusted & secure platform. Easy Global investing. Highlights: Experienced Team Available, Secure Platform, Newsletter Available.",
+      link: 'https://www.globalise.co/'
     },
     angular: {
       title: 'Think Ahoy',
@@ -47,6 +48,12 @@ $(document).ready(function() {
       tag: 'Academic Website.',
       detail:
         'Focussing on developing the skills of new recruits in the operations department, the Claims Academy will ensure they can fit seamlessly into our team once their ....'
+    },
+    reactNative: {
+      title: 'Mobile Application',
+      tag: 'E-Cart Mobile Application',
+      detail:
+        'We offer Ecommerce mobile applications for development to manage entire system on your mobile device. Our mobile applications are developed using native App.'
     },
   };
 
@@ -148,7 +155,7 @@ $(document).ready(function() {
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          "url('./assets/" + id + ".png') center center/cover",
         backgroundSize: 'cover'
       });
     });
